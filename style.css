@@ -1,0 +1,160 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    /* font-family: 'Roboto Mono', monospace; */
+}
+
+.titulo {
+    text-align: start;
+    font-style: italic;
+    font-size: 36px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.foto-wrapper {
+    width: 150px;
+    height: 150px;
+    margin-left: 30px;
+    margin-top: 25px;
+}
+
+.dados-wrapper {
+    margin-left: 30px
+}
+
+img.img-foto {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    box-shadow: 3px 3px 5px #333;
+}
+
+.breve-descricao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    text-align: start;
+
+}
+
+.desc-quote {
+    font-style: italic;
+}
+
+.breve-descricao p {
+    margin:0;
+}
+
+.left-margin-fix {
+    margin-left: 10px !important;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.text-start {
+    text-align: start;
+}
+
+.header-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.flex-hori-between {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.width-100 {
+    width: 100%
+}
+
+.bloco-list-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1100px;
+    /* width: 800px; */
+}
+
+.sub-bloco {
+    background-color: #adcbc9;
+    /* color: darkblue; */
+    border-radius: 10px;
+    margin: 5px;
+    padding: 15px;
+    box-shadow: 3px 3px 6px #444;
+}
+
+.block-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.block-card {
+    background-color: #93a0b0;
+    box-shadow: 3px 3px 7px 0px #333;
+    border-radius: 15px;
+    padding: 25px 40px;
+    margin: 10px;
+}
+
+.sub-titulo {
+    font-size: 18px;
+    text-decoration: underline;
+    color: #bfd5f0;
+    text-shadow: 2px 2px 4px #333;
+    font-weight: 800;
+    font-style: italic;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+.par-de-texto > span:first-child {
+    font-weight:800;
+}
+
+.par-de-texto > span > span {
+    background-color: #1668a0;
+    color: #e0e9e9;
+    border-radius: 4px;
+    padding: 0px 5px;
+    margin: 0px 1px;
+    box-shadow: 2px 2px 3px #444;
+}
+
+.techs-separator {
+    background: darkblue;
+    display: inline-flex;
+    width: 2px;
+    border-radius: 50%;
+}
+
+.black-border {
+    border: 1px solid black;
+}
+
+.red-border {
+    border: 1px solid red;
+}
+
+.green-border {
+    border: 1px solid green;
+}
+
+.blue-border {
+    border: 1px solid blue;
+}
+
+.fuchsia-border {
+    border: 1px solid fuchsia;
+}
